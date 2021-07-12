@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>music list</title>
+</head>
+
+<body>
+    <header>
+        <h1>Music Player</h1>
+        <p id="song">Stereo Hearts</p>
+        <h3 id="artist">Maroon 5</h3>
+    </header>
+    <section>
+        <div id="list">
+            <label for="id1">Stereo Hearts</label>
+            <label for="id2">Beautiful Mistakes</label>
+            <label for="id3">Sugar</label>
+            <label for="id4">Payphone</label>
+            <label for="id5">Animals</label>
+            <label for="id6">7 Rings</label>
+            <label for="id7">Into You</label>
+            <label for="id8">Love Me Harder</label>
+            <label for="id9">Positions</label>
+            <input type="radio" name="music" id="id1" class="input">
+            <input type="radio" name="music" id="id2" class="input">
+            <input type="radio" name="music" id="id3" class="input">
+            <input type="radio" name="music" id="id4" class="input">
+            <input type="radio" name="music" id="id5" class="input">
+            <input type="radio" name="music" id="id6" class="input">
+            <input type="radio" name="music" id="id7" class="input">
+            <input type="radio" name="music" id="id8" class="input">
+            <input type="radio" name="music" id="id9" class="input">
+        </div>
+        <div id="progress">
+            <input type="range" name="range" id="range" min="0" max="100" value="0">
+        </div>
+        <div class="player">
+            <i id="backward" class="fa fa-step-backward"></i>
+            <i id="playButton" class="fa fa-play-circle"></i>
+            <i id="forward" class="fa fa-step-forward"></i>
+        </div>
+    </section>
+    <audio src="maroon 5/stereo hearts.mp3" id="myAudio"></audio>
+</body>
+
+</html>
+<script src="main.js"></script>
